@@ -22,13 +22,14 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descripcion
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Este fue el backend necesario para pasar la entrevista técnica de la empresa Neering. Este
+proyecto es parte de un conjunto de Backend + Frontend.
 
 ## Archivo .env
 
-Crea un archivo .env en la raíz del proyecto, con un formato de este estilo:
+Crea un archivo <strong>.env</strong> en la raíz del proyecto, con un formato de este estilo:
 
 ```bash
 $ DB_HOST= #localhost / production
@@ -38,42 +39,4 @@ $ DB_PASSWORD= #contraseña del usuario con acceso a base de datos
 $ DB_DATABASE= #nombre de la base de datos
 ```
 En este caso la database usada era <strong>"KentFoods"</strong>
-## Running the app
 
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
