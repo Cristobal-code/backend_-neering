@@ -26,12 +26,18 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Archivo .env
+
+Crea un archivo .env en la raíz del proyecto, con un formato de este estilo:
 
 ```bash
-$ npm install
+$ DB_HOST= #localhost / production
+$ DB_PORT= #el puerto donde corre la base de datos
+$ DB_USER= #usuario con acceso a base de datos
+$ DB_PASSWORD= #contraseña del usuario con acceso a base de datos
+$ DB_DATABASE= #nombre de la base de datos
 ```
-
+En este caso la database usada era <strong>"KentFoods"</strong>
 ## Running the app
 
 ```bash
